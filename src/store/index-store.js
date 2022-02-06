@@ -2,11 +2,13 @@
 import { configureStore } from '@reduxjs/toolkit'
 import counterReducer from './../features/counterSlice'
 import toggleReducer from './../features/toggleSlice'
+import authReducer from '../features/authSlice'
 
 const store = configureStore({
   reducer: {
     counter: counterReducer,
-    toggle: toggleReducer
+    toggle: toggleReducer,
+    auth: authReducer
   }
 })
 

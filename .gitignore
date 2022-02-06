@@ -1,7 +1,6 @@
 /node_modules
-/src/components/Auth.js
-/src/components/Auth.modules.css
-/src/components/UserProfile.js
-/src/components/UserProfile.modules.css
-/src/components/Header.js
+
+/src/components/Auth.module.css 
+/src/components/UserProfile.module.css
+/src/components/Header.module.css
 /src/playground

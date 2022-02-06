@@ -12,8 +12,8 @@ const Counter = () => {
   const counter = useSelector((state) => state.counter.value)
   const show = useSelector((state) => state.toggle.value)
 
-  console.log(counter)
-  console.log(show)
+  // console.log(counter)
+  // console.log(show)
   const toggleCounterHandler = () => {
     dispatch(toggle())
   }
